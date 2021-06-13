@@ -1,4 +1,5 @@
 #include <iostream>
+#include<iomanip>
 using namespace std;
 int a=450;
 int main(int argc, char const *argv[])
@@ -19,5 +20,4 @@ int main(int argc, char const *argv[])
     cout<<"val of a is "<<a<<" and value of original b is "<<b<<endl;
     cout<<"val of b typecasted to int is "<<(int)b<<endl;
     cout<<"Value of global int is "<<::a<<endl;
-
 }
