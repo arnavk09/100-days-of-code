@@ -4,7 +4,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     int x;
-    cout << "Enter a number between 1-7 :" << endl;
+    cout << "Enter a number between 1-7 :\n";
     cin >> x;
     if ((x > 0) && (x <= 7))
     {
@@ -42,7 +42,7 @@ int main(int argc, char const *argv[])
     }
     else
     {
-        cout << "INVALID NUMBER INPUT DETECTED. APPLICATION TERMINATED.";
+        cout << "---INVALID NUMBER INPUT DETECTED. APPLICATION TERMINATED.---";
     }
     return 0;
 }
