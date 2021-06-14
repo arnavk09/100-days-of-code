@@ -21,6 +21,7 @@ int main(int argc, char const *argv[])
     //     // if ((i%2==0)&&(i%3==0))
     //     // {
     //     //     cout<<i<<endl;  
+                         /*HERE, IN OUTPUT WE WON'T GET 0. THIS MAKES THIS METHOD A BETTER ONE!*/
     //     // }
         
      
