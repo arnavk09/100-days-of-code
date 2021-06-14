@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 
     //     // if ((i%2==0)&&(i%3==0))
     //     // {
-    //     //       
+    //     //     cout<<i<<endl;  
     //     // }
         
      
