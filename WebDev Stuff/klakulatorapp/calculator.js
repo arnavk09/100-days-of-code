@@ -8,11 +8,12 @@ app.get("/", function (req, res) {
     //res.send(`Listening to PORT ${port}`)
     res.sendFile(__dirname+ "/index.html");
 })
-app.post("/",function (req,res) {
+app.post("/answer",function (req,res) {
     var num1,num2;
     num1=Number(req.body.num1);
     num2=Number(req.body.num2);
     var submit=Number(num1+num2);
+    
 
 
     res.send("Answer : " + submit)
