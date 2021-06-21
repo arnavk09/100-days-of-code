@@ -24,7 +24,7 @@ int main(int argc, char const *argv[])
 
     int marks2[] = {1, 3, 5, 7, 9};
     int *q = marks2;   
-    cout<<*q<<endl;         //prints value of *q i.e 1
+    cout<<*q<<endl;          //prints value of *q i.e 1
     cout << *(q++)<<endl;
     cout<<*q<<endl;    
     cout<<*(++q)<<endl;
