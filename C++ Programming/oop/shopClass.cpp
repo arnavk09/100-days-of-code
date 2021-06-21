@@ -2,18 +2,15 @@
 #include <iomanip>
 #include <cmath>
 using namespace std;
-
 class Shop
 {
 
     int itemId[100], itemPrice[100], counter = 1;
-
 public:
     void initCounter(void) { counter = 1; }
     void setPrice(void);
     void displayPrice(void);
 };
-
 void Shop::setPrice(void)
 {
     cout << "Enter Item ID :" << counter << endl;
@@ -29,7 +26,6 @@ void Shop::displayPrice(void)
         cout << "The Price of Item with ID " << itemId[i] << " is " << itemPrice[i] << "\n";
     }
 }
-
 int main(int argc, char const *argv[])
 {
     Shop thing;
@@ -38,6 +34,6 @@ int main(int argc, char const *argv[])
     thing.setPrice();
     thing.setPrice();
     thing.displayPrice();
-
+ 
     return 0;
 }
