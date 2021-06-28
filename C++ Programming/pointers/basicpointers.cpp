@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include<stdlib.h>
 #include <cmath>
 using namespace std;
 
@@ -8,7 +9,7 @@ int main(int argc, char const *argv[])
     int a=3;
     int *b =&a; // Level 1 pointer. I'm pointing to a value
     int **c=&b; // Level 2 pointer. I'm pointing to a pointer that's storing an address value.
-    int ***d=&c;// Level 3 pointer. I'm pointing to a ppointer that's storing an address value, which in turn is storing an address value, which in turn is storing the value itself.
+    int ***d=&c;// Level 3 pointer. I'm pointing to a pointer that's storing an address value, which in turn is storing an address value, which in turn is storing the value itself.
 
 
     /*       a, *b, **c, ***d alll have the same value i.e 3.             */
