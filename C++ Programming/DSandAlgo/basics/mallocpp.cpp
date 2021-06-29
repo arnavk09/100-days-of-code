@@ -6,8 +6,10 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     //Manually allocating a pointer to heap
-    int a,*b;
+    int a=10;
+    int *b=&a;
     b=new int [5];
-    cout<<b;
+    cout<<&b<<endl; //Address in HEAP
+    cout<<*b<<endl;
     return 0;
 }
