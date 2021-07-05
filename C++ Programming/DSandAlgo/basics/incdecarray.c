@@ -19,7 +19,7 @@ int main()
     q = NULL;                       // Since both p and q pointed to q, we nullify q since we need a bigger array in p.
     
     for (int j = 0; j < 5; j++){
-        printf("%d \n", p[j]);
+        printf("%d ", p[j]);
     }
         
 
