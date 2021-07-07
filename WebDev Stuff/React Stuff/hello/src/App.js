@@ -1,18 +1,19 @@
 import "./App.css";
 import React from "react";
-import { Buttonsync } from "./components/Buttonsync";
+// import { Buttonsync } from "./components/Buttonsync";
+// import { Sample } from "./components/sampleprop";
 import { Greet } from "./components/Greet";
-import Welcome from "./components/classWelcome";
-import Hello from "./components/Hello";
+// import { Calculate } from "./components/Calculate";
+// import Welcome from "./components/classWelcome";
+import Message from "./components/Message";
+// import Hello from "./components/Hello";
 function App() {
   return <div className="App">
-   <Greet/>
+   <Greet name = " User" rank="unsigned"/>
    <br></br>
-   <Buttonsync/>
-   <br></br>
-   <Welcome/>
-   <br></br>
-   <Hello/>
+
+   <Message/>
+   
    </div>;
 }
 
