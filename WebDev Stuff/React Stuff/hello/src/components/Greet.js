@@ -3,7 +3,7 @@ import React from "react";
 //     return <h1 align = "center">Hello Arnav</h1>
 // }
 export const Greet = (props) => {
-  console.log(props);
+  // console.log(props);
   return (
     <div>
       <h1 align="center">

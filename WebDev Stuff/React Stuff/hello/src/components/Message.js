@@ -3,7 +3,7 @@ class Message extends Component {
     constructor(){
         super()
         this.state={
-            message : 'welcome Avyaan'
+            message : 'welcome User'
         }
     }
     changeMessage(){
