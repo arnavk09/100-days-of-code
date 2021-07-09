@@ -9,4 +9,4 @@ width="125" height = "125" >
 
 <!-- Place this tag where you want the button to render. -->
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/arnavk09/100-days-of-code/archive/refs/heads/master.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
+<a class="github-button" href="https://github.com/arnavk09/100-days-of-code/archive/refs/heads/master.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" aria-label="Download ntkme/github-buttons on GitHub">Download</a> this repository in ZIP format
