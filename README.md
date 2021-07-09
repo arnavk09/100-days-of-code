@@ -8,4 +8,4 @@ width="125" height = "125" >
 <p>I have <b>accepted</b> the 100 days of code challenge and I started it on 13 June 2021. My target is to <b><i>learn C++ and Data Structures and Algorithms and to polish my Web Development skills</i></b> as well. The time I've spent in my IDE (VSCode) is being publicly shared keeping in mind public accountability.</p>
 
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ntkme/github-buttons/archive/HEAD.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
+<a class="github-button" href="https://github.com/arnavk09/100-days-of-code/archive/refs/heads/master.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
