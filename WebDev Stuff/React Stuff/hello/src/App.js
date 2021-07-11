@@ -1,6 +1,9 @@
 import "./App.css";
 import React from "react";
+
 import ClassClick from "./components/ClassClick";
+import Voot from "./components/Voot";
+import Nah from "./components/Nah";
 // import { Buttonsync } from "./components/Buttonsync";
 // import { Sample } from "./components/sampleprop";
 import FunctionClick from "./components/FunctionClick";
@@ -13,9 +16,12 @@ import Message from "./components/Message";
 function App() {
   return <div className="App">
    <Greet name = " User" rank="USER"/>
+   <Nah/>
    <br></br>
    <Message/>
    <Counter/>
+   <br/><br/>
+   <Voot/>
    <br></br>
    <FunctionClick/>
    <br></br>
