@@ -12,7 +12,9 @@ class ParentComponent extends Component {
 
     }
     greetParent(){
-        alert(`Hello  ${this.state.parentName}`)
+        alert(`Hello ${this.state.parentName}`)
+        console.log(this.state.parentName);
+        console.log("methodFired, you clicked OK");
     }
     
     render() {

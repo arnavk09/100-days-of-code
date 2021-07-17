@@ -1,4 +1,4 @@
-/*INCREMENT is for INCREMENT button and CLICKY is ButtonClick*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap'); 
 .Increment {
     position: relative;
     background-color: #04AA6D;
@@ -55,3 +55,6 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+welcomer{
+  font-family: 'Oswald', sans-serif;
+}  

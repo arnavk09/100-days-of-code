@@ -1,34 +1,13 @@
 import "./App.css";
 import React from "react";
-import ParentComponent from "./components/ParentComponent";
-// import ClassClick from "./components/ClassClick";
-// import Voot from "./components/Voot";
-// import Nah from "./components/Nah";
-// // import { Buttonsync } from "./components/Buttonsync";
-// // import { Sample } from "./components/sampleprop";
-// import FunctionClick from "./components/FunctionClick";
-// import Counter from "./components/Counter";
-// import EventBind from "./components/EventBind";
-// import { Greet } from "./components/Greet";
-// // import { Calculate } from "./components/Calculate";
-// // import Welcome from "./components/classWelcome";
-// import Message from "./components/Message";
-// import Hello from "./components/Hello";
+// import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+
 function App() {
   return <div className="App">
-    <ParentComponent/>
-    {/* <EventBind/> */}
-   {/* <Greet name = " User" rank="USER"/> */}
-   {/* <Nah/>
-   <br></br>
-   <Message/>
-   <Counter/>
-   <br/><br/>
-   <Voot/>
-   <br></br>
-   <FunctionClick/>
-   <br></br>
-   <ClassClick/> */}
+    {/* <ParentComponent/> */}
+    <br/><br/>
+    <UserGreeting/>
    </div>;
 }
 
