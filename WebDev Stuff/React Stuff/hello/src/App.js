@@ -1,14 +1,18 @@
 import "./App.css";
 import React from "react";
-// import ParentComponent from "./components/ParentComponent";
-import UserGreeting from "./components/UserGreeting";
+// import UserGreeting from "./components/UserGreeting";
+// import NameList from "./components/NameList";
+import Footer from "./components/Footer";
+// import Stylesheet from "./components/Stylesheet";
+import Heading from "./components/Heading";
 
 function App() {
-  return <div className="App">
-    {/* <ParentComponent/> */}
+  return <div className="mainApp">
     <br/><br/>
-    <UserGreeting/>
-   </div>;
+    <Heading/>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <center><Footer/></center> 
+   </div>
 }
 
 export default App;
