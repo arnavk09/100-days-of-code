@@ -61,7 +61,7 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-welcomer{
+.welcomer{
   font-family: 'Oswald', sans-serif;
 }  
 .header{
@@ -70,4 +70,12 @@ welcomer{
 .primary{
   color: orange;
   font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  transition-duration: 0.28s;
+}
+
+.button:hover {
+  background-color: #8493d6; /* Bluish */
+  color: white;
 }
