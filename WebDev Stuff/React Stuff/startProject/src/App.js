@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div>
       <h2>ExpenseTrack</h2>
-      <Expenses items={expenses} />
+      <Expenses stuff={expenses} />
     </div>
   );
 }
