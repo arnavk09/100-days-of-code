@@ -1,15 +1,22 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class AdditionClass {
     public static void main(String[] args) {
-        int x,y,z;
+        double x,y,z;
         Scanner s= new Scanner(System.in);
         System.out.println("Enter num1 : ");
-        x=s.nextInt();
+        x=s.nextDouble();
         System.out.println("Enter num2 : ");
-        y=s.nextInt();
-        z=x+y;
-        System.out.println(z);
+        y=s.nextDouble();
+        z=sum(x,y);
+        System.out.println("Sum is : "+z);
         System.exit(0);
     }
+    private static double sum (double a, double b) {
+        double z;
+        z=a+b;
+        return z;
+    }
+
 }
