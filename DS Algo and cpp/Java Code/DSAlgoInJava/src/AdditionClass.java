@@ -6,7 +6,7 @@ public class AdditionClass {
         Scanner s= new Scanner(System.in);
         System.out.println("Enter num1 : ");
         x=s.nextInt();
-
+//help
         System.out.println("Enter num2 : ");
         y=s.nextInt();
         z=x+y;
