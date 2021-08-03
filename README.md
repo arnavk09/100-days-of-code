@@ -1,6 +1,6 @@
 <h1 align = "center">100 Days Of Code Challenge</h1>
-<center><img src = "https://100-days-of-code.s3-us-west-1.amazonaws.com/Readme/100DocLogo.gif" </center>
-width="125" height = "125" >
+<center><img src = "https://100-days-of-code.s3-us-west-1.amazonaws.com/Readme/100DocLogo.gif"
+width="125" height = "125" > </center>
 <br>
 
 [![wakatime](https://wakatime.com/badge/github/arnavk09/100-days-of-code.svg)](https://wakatime.com/badge/github/arnavk09/100-days-of-code)
