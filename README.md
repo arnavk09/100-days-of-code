@@ -5,7 +5,7 @@ width="125" height = "125" > </center>
 
 [![wakatime](https://wakatime.com/badge/github/arnavk09/100-days-of-code.svg)](https://wakatime.com/badge/github/arnavk09/100-days-of-code)
 
-<p>I have <b>accepted</b> the 100 days of code challenge and I started it on 13 June 2021. My target is to <b><i>learn C++ basics and Data Structures and Algorithms in Java and to learn front end Web Development</i></b> as well. The time I've spent in my IDE (VSCode) is being publicly shared keeping in mind public accountability.</p>
+<p>I have <b>accepted</b> the 100 days of code challenge and I started it on 13 June 2021. My target is to <b><i>learn C++ basics and Data Structures and Algorithms in Java and to learn front end Web Development</i></b> as well. The time I've spent in my IDE (VSCode/IntelliJ IDEA) is being publicly shared keeping in mind public accountability.</p>
 
 <!-- Place this tag where you want the button to render. -->
 <!-- Place this tag where you want the button to render. -->
