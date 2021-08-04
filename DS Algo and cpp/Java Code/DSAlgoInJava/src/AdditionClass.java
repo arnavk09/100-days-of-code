@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class AdditionClass {
     public static void main(String[] args) {
+        //We have "static" above as we don't want to create an object AdditionClass, we just want to run the fn.
         double x,y,z;
         Scanner s= new Scanner(System.in);
         System.out.println("Enter num1 : ");
