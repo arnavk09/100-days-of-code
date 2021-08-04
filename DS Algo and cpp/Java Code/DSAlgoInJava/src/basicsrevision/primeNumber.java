@@ -20,7 +20,6 @@ public class primeNumber {
                     return;
                 }
                 y++;
-
             }
             if (y*y>x){
                 System.out.println("PRIME");
