@@ -1,3 +1,5 @@
+package conditionals;
+
 public class whileLoopanddoWhile {
     public static void main(String[] args) {
         int x=1;
