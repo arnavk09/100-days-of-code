@@ -15,6 +15,7 @@ public class linearSearch {
             arr[i] = sc.nextInt();
         }
         System.out.println("Array Entered : " + Arrays.toString(arr));
+
         System.out.println("What to search : ");
         search = sc.nextInt();
         for (j = 0; j < arr.length; j++) {

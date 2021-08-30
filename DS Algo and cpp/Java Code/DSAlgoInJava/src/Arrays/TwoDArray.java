@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TwoDArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int arr[][] = new int[3][3];
+        int[][] arr = new int[3][3];
 //IN
         System.out.println("Enter 3x3 Array Matrix : ");
         for (int row = 0; row < arr.length; row++) {
@@ -16,8 +16,8 @@ public class TwoDArray {
         }
         //OUT
         System.out.println("Array is :");
-        for (int row = 0; row < arr.length; row++) {
-            System.out.println(Arrays.toString(arr[row]));
+        for (int[] ints : arr) {
+            System.out.println(Arrays.toString(ints));
         }
         System.exit(0);
     }
