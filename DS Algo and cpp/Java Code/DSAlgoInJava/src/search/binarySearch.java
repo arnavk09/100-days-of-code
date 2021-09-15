@@ -13,7 +13,7 @@ public class binarySearch {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println("Array Entered : "+Arrays.toString(arr));
+        System.out.println("Array Entered : " + Arrays.toString(arr));
 
         int first, last, mid, search;
         System.out.println(" Enter element to search : ");
