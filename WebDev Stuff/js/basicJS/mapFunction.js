@@ -19,5 +19,5 @@ const movies = [
 ]
 
 let movieRender = movies.map(function (movie) {
-   return (`${movie.title.toUpperCase()}`)
+   console.log((`${movie.title.toUpperCase()}`)); 
 })
