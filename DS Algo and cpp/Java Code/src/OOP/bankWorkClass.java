@@ -10,10 +10,10 @@ public class bankWorkClass {
         String bankName;
 
         void newAcc(String u, long a, long b, String n) {
-            u = username;
-            a = accountNumber;
-            b = balance;
-            n = bankName;
+            this.username = username;
+            this.accountNumber = accountNumber;
+            this.balance = balance;
+            this.bankName = bankName;
         }
 
         void render() {
